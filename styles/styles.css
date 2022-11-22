@@ -1,0 +1,103 @@
+:root {
+  --Moderate_violet: hsl(263, 55%, 52%);
+  --Very_dark_grayish_blue: hsl(217, 19%, 35%);
+  --Very_dark_blackish_blue: hsl(219, 29%, 14%);
+  --White: hsl(0, 0%, 100%);
+  --Light_gray: hsl(0, 0%, 81%);
+  --Light_grayish_blue: hsl(210, 46%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  padding: 3rem 2rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: auto;
+  gap: 3rem;
+  margin-bottom: 1rem;
+}
+.container .card__item {
+  padding: 2rem 4rem 4rem;
+  border-radius: 1rem;
+}
+.container .card__item .card__info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.container .card__item .card__info figure {
+  height: 5rem;
+  width: 5rem;
+}
+.container .card__item .card__info figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid var(--Light_gray);
+}
+.container .card__item .card__text {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.container .card__item .card__text p:nth-child(1) {
+  font-size: 2.5rem;
+}
+.container .card__item .card__text p:nth-child(2) {
+  font-size: 1.75rem;
+}
+.container .card__item-1 {
+  background-color: var(--Moderate_violet);
+  background-image: url("../images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position-x: 230px;
+}
+.container .card__item-1 .card__info {
+  display: flex;
+  gap: 2rem;
+}
+.container .card__item-1 .card__info div p:nth-child(1) {
+  color: var(--White);
+}
+.container .card__item-1 .card__info div p:nth-child(2) {
+  --Light_gray: hsla(0, 0%, 81%, 0.5);
+  color: var(--Light_gray);
+}
+.container .card__item-1 .card__text {
+  gap: 2rem;
+}
+.container .card__item-1 .card__text p:nth-child(1) {
+  color: var(--White);
+}
+.container .card__item-1 .card__text p:nth-child(2) {
+  --Light_gray: hsla(0, 0%, 81%, 0.5);
+  color: var(--Light_gray);
+}
+.container .card__item-2 {
+  background-color: var(--Very_dark_grayish_blue);
+}
+.container .card__item-3 {
+  background-color: var(--Light_grayish_blue);
+}
+.container .card__item-4 {
+  background-color: var(--Very_dark_blackish_blue);
+}
+.container .card__item-5 {
+  background-color: var(--Light_grayish_blue);
+}/*# sourceMappingURL=styles.css.map */
