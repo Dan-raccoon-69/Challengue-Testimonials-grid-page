@@ -6,5 +6,5 @@
 ---
 -Puedes ver el sitio en vivo [aqui](https://dan-raccoon-69.github.io/Challengue-Testimonials-grid-page/).
 ---
--Captura del sitio terminado:
-![Captura del sitio terminado](assets/Captura%20del%20sitio%20terminado.png)
+-*Captura del sitio terminado:*
+![Captura del sitio terminado](design/Sitio%20Terminado.png)
